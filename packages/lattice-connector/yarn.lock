@@ -356,16 +356,16 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@sushi-web3-react/abstract-connector@^1.0.1":
+"@emtia-web3-react/abstract-connector@^1.0.1":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sushi-web3-react/abstract-connector/-/abstract-connector-1.0.1.tgz#0274479e9c0e713a0a92103f6ff75a95919ee219"
+  resolved "https://registry.yarnpkg.com/@emtia-web3-react/abstract-connector/-/abstract-connector-1.0.1.tgz#0274479e9c0e713a0a92103f6ff75a95919ee219"
   integrity sha512-HjHox8rgJKHL3yvf6LA6ZS8H8aVFh5HpGp2kuWl4DVXhRiE2Lq/2eM8lOhXQc4bpICtIVmeRbycfW015uIMZLg==
   dependencies:
-    "@sushi-web3-react/types" "^1.0.1"
+    "@emtia-web3-react/types" "^1.0.1"
 
-"@sushi-web3-react/types@^1.0.1":
+"@emtia-web3-react/types@^1.0.1":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sushi-web3-react/types/-/types-1.0.1.tgz#1add17474b49d7e729fcd5f7aa2007606ab15235"
+  resolved "https://registry.yarnpkg.com/@emtia-web3-react/types/-/types-1.0.1.tgz#1add17474b49d7e729fcd5f7aa2007606ab15235"
   integrity sha512-aaol/VrQWDf5OGkmYG66bPVl0bzxPG0+m5xX0rGnoPHQCyeBhKzunlKvF8Cpx/RIjnTjhgy57bijFf2V27G/Qg==
 
 "@szmarczak/http-timer@^1.1.2":

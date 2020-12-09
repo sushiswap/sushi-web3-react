@@ -1,5 +1,5 @@
-import { AbstractConnectorArguments, ConnectorUpdate } from '@sushi-web3-react/types'
-import { AbstractConnector } from '@sushi-web3-react/abstract-connector'
+import { AbstractConnectorArguments, ConnectorUpdate } from '@emtia-web3-react/types'
+import { AbstractConnector } from '@emtia-web3-react/abstract-connector'
 import warning from 'tiny-warning'
 
 import { SendReturnResult, SendReturn, Send, SendOld } from './types'

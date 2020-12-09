@@ -1,5 +1,5 @@
 {
-  "name": "@sushi-web3-react/core",
+  "name": "@emtia-web3-react/core",
   "publishConfig": {
     "access": "public"
   },
@@ -20,7 +20,7 @@
   "author": "Jiro Ono",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sushiswap/sushi-web3-react"
+    "url": "git://github.com/emtiaswap/emtia-web3-react"
   },
   "main": "dist/index.js",
   "module": "dist/core.esm.js",
@@ -36,8 +36,8 @@
   },
   "dependencies": {
     "@ethersproject/keccak256": "^5.0.0-beta.130",
-    "@sushi-web3-react/abstract-connector": "^1.0.1",
-    "@sushi-web3-react/types": "^1.0.1",
+    "@emtia-web3-react/abstract-connector": "^1.0.1",
+    "@emtia-web3-react/types": "^1.0.1",
     "tiny-invariant": "^1.0.6",
     "tiny-warning": "^1.0.3"
   },

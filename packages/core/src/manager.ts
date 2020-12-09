@@ -1,6 +1,6 @@
 import { useReducer, useEffect, useCallback, useRef } from 'react'
-import { ConnectorUpdate, ConnectorEvent } from '@sushi-web3-react/types'
-import { AbstractConnector } from '@sushi-web3-react/abstract-connector'
+import { ConnectorUpdate, ConnectorEvent } from '@emtia-web3-react/types'
+import { AbstractConnector } from '@emtia-web3-react/abstract-connector'
 import warning from 'tiny-warning'
 
 import { Web3ReactManagerReturn } from './types'

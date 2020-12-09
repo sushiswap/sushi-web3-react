@@ -1,11 +1,11 @@
-# `sushi-web3-react` Documentation - Fortmatic
+# `emtia-web3-react` Documentation - Fortmatic
 
 - [Install](#install)
 - [Arguments](#arguments)
 - [Example](#example)
 
 ## Install
-`yarn add @sushi-web3-react/fortmatic-connector`
+`yarn add @emtia-web3-react/fortmatic-connector`
 
 ## Arguments
 ```typescript
@@ -15,7 +15,7 @@ chainId: number
 
 ## Example
 ```javascript
-import { FortmaticConnector } from '@sushi-web3-react/fortmatic-connector'
+import { FortmaticConnector } from '@emtia-web3-react/fortmatic-connector'
 
 const fortmatic = new FortmaticConnector({ apiKey: '...', chainId: 4 })
 ```

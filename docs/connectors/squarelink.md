@@ -1,11 +1,11 @@
-# `sushi-web3-react` Documentation - Squarelink
+# `emtia-web3-react` Documentation - Squarelink
 
 - [Install](#install)
 - [Arguments](#arguments)
 - [Example](#example)
 
 ## Install
-`yarn add @sushi-web3-react/squarelink-connector`
+`yarn add @emtia-web3-react/squarelink-connector`
 
 ## Arguments
 ```typescript
@@ -16,7 +16,7 @@ options?: any
 
 ## Example
 ```javascript
-import { SquarelinkConnector } from '@sushi-web3-react/squarelink-connector'
+import { SquarelinkConnector } from '@emtia-web3-react/squarelink-connector'
 
 const squarelink = new SquarelinkConnector({
   clientId: '...',

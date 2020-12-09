@@ -1552,144 +1552,144 @@
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
 
-"@sushi-web3-react/abstract-connector@^1.0.1", "@sushi-web3-react/abstract-connector@latest":
+"@emtia-web3-react/abstract-connector@^1.0.1", "@emtia-web3-react/abstract-connector@latest":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sushi-web3-react/abstract-connector/-/abstract-connector-1.0.1.tgz#0274479e9c0e713a0a92103f6ff75a95919ee219"
+  resolved "https://registry.yarnpkg.com/@emtia-web3-react/abstract-connector/-/abstract-connector-1.0.1.tgz#0274479e9c0e713a0a92103f6ff75a95919ee219"
   dependencies:
-    "@sushi-web3-react/types" "^1.0.1"
+    "@emtia-web3-react/types" "^1.0.1"
 
-"@sushi-web3-react/authereum-connector@latest":
+"@emtia-web3-react/authereum-connector@latest":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sushi-web3-react/authereum-connector/-/authereum-connector-1.0.1.tgz#d73a4bf93a93b0438b594215085d3dda0b41ec6d"
+  resolved "https://registry.yarnpkg.com/@emtia-web3-react/authereum-connector/-/authereum-connector-1.0.1.tgz#d73a4bf93a93b0438b594215085d3dda0b41ec6d"
   dependencies:
-    "@sushi-web3-react/abstract-connector" "^1.0.1"
-    "@sushi-web3-react/types" "^1.0.1"
+    "@emtia-web3-react/abstract-connector" "^1.0.1"
+    "@emtia-web3-react/types" "^1.0.1"
     authereum "^0.0.4-beta.157"
 
-"@sushi-web3-react/core@latest":
+"@emtia-web3-react/core@latest":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sushi-web3-react/core/-/core-1.0.1.tgz#f56d9cb95b30c1aee52e02f12d5fc0ffaa847d7e"
+  resolved "https://registry.yarnpkg.com/@emtia-web3-react/core/-/core-1.0.1.tgz#f56d9cb95b30c1aee52e02f12d5fc0ffaa847d7e"
   dependencies:
     "@ethersproject/keccak256" "^5.0.0-beta.130"
-    "@sushi-web3-react/abstract-connector" "^1.0.1"
-    "@sushi-web3-react/types" "^1.0.1"
+    "@emtia-web3-react/abstract-connector" "^1.0.1"
+    "@emtia-web3-react/types" "^1.0.1"
     tiny-invariant "^1.0.6"
     tiny-warning "^1.0.3"
 
-"@sushi-web3-react/fortmatic-connector@latest":
+"@emtia-web3-react/fortmatic-connector@latest":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sushi-web3-react/fortmatic-connector/-/fortmatic-connector-1.0.1.tgz#d5d2a2f247d6afb1cb09b0082b8e015117827c94"
+  resolved "https://registry.yarnpkg.com/@emtia-web3-react/fortmatic-connector/-/fortmatic-connector-1.0.1.tgz#d5d2a2f247d6afb1cb09b0082b8e015117827c94"
   dependencies:
-    "@sushi-web3-react/abstract-connector" "^1.0.1"
-    "@sushi-web3-react/types" "^1.0.1"
+    "@emtia-web3-react/abstract-connector" "^1.0.1"
+    "@emtia-web3-react/types" "^1.0.1"
     fortmatic "^1.0.0"
     tiny-invariant "^1.0.6"
 
-"@sushi-web3-react/frame-connector@latest":
+"@emtia-web3-react/frame-connector@latest":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sushi-web3-react/frame-connector/-/frame-connector-1.0.1.tgz#a471914a9d8621111024a375b86f8e2e14bf3f3f"
+  resolved "https://registry.yarnpkg.com/@emtia-web3-react/frame-connector/-/frame-connector-1.0.1.tgz#a471914a9d8621111024a375b86f8e2e14bf3f3f"
   dependencies:
-    "@sushi-web3-react/abstract-connector" "^1.0.1"
-    "@sushi-web3-react/types" "^1.0.1"
+    "@emtia-web3-react/abstract-connector" "^1.0.1"
+    "@emtia-web3-react/types" "^1.0.1"
     eth-provider "^0.2.5"
     tiny-invariant "^1.0.6"
 
-"@sushi-web3-react/injected-connector@latest":
+"@emtia-web3-react/injected-connector@latest":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sushi-web3-react/injected-connector/-/injected-connector-1.0.1.tgz#0d0b1f10a500dc8a413e0c38ca4864efb7a65cfe"
+  resolved "https://registry.yarnpkg.com/@emtia-web3-react/injected-connector/-/injected-connector-1.0.1.tgz#0d0b1f10a500dc8a413e0c38ca4864efb7a65cfe"
   dependencies:
-    "@sushi-web3-react/abstract-connector" "^1.0.1"
-    "@sushi-web3-react/types" "^1.0.1"
+    "@emtia-web3-react/abstract-connector" "^1.0.1"
+    "@emtia-web3-react/types" "^1.0.1"
     tiny-warning "^1.0.3"
 
-"@sushi-web3-react/lattice-connector@latest":
+"@emtia-web3-react/lattice-connector@latest":
   version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@sushi-web3-react/lattice-connector/-/lattice-connector-1.0.3.tgz#be40f9442d5de234e529ae8797bb06fdd076f2f6"
+  resolved "https://registry.yarnpkg.com/@emtia-web3-react/lattice-connector/-/lattice-connector-1.0.3.tgz#be40f9442d5de234e529ae8797bb06fdd076f2f6"
   dependencies:
     "@0x/subproviders" "^6.2.0"
-    "@sushi-web3-react/abstract-connector" "^1.0.1"
-    "@sushi-web3-react/types" "^1.0.1"
+    "@emtia-web3-react/abstract-connector" "^1.0.1"
+    "@emtia-web3-react/types" "^1.0.1"
     eth-lattice-keyring "^0.2.6"
 
-"@sushi-web3-react/ledger-connector@latest":
+"@emtia-web3-react/ledger-connector@latest":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sushi-web3-react/ledger-connector/-/ledger-connector-1.0.1.tgz#63855dd6c9b882c69f005069b113ee1b95400345"
+  resolved "https://registry.yarnpkg.com/@emtia-web3-react/ledger-connector/-/ledger-connector-1.0.1.tgz#63855dd6c9b882c69f005069b113ee1b95400345"
   dependencies:
     "@0x/subproviders" "^5.0.4"
-    "@sushi-web3-react/abstract-connector" "^1.0.1"
-    "@sushi-web3-react/types" "^1.0.1"
+    "@emtia-web3-react/abstract-connector" "^1.0.1"
+    "@emtia-web3-react/types" "^1.0.1"
 
-"@sushi-web3-react/magic-connector@latest":
+"@emtia-web3-react/magic-connector@latest":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sushi-web3-react/magic-connector/-/magic-connector-1.0.1.tgz#baf06e2d9348d3c3a63943da603cb0523e6874e9"
+  resolved "https://registry.yarnpkg.com/@emtia-web3-react/magic-connector/-/magic-connector-1.0.1.tgz#baf06e2d9348d3c3a63943da603cb0523e6874e9"
   dependencies:
-    "@sushi-web3-react/abstract-connector" "^1.0.1"
-    "@sushi-web3-react/types" "^1.0.1"
+    "@emtia-web3-react/abstract-connector" "^1.0.1"
+    "@emtia-web3-react/types" "^1.0.1"
     magic-sdk "^2.4.7"
     tiny-invariant "^1.0.6"
 
-"@sushi-web3-react/network-connector@latest":
+"@emtia-web3-react/network-connector@latest":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sushi-web3-react/network-connector/-/network-connector-1.0.1.tgz#b07fc20bd76d3348d9514bf6b3e3b07edb19ba13"
+  resolved "https://registry.yarnpkg.com/@emtia-web3-react/network-connector/-/network-connector-1.0.1.tgz#b07fc20bd76d3348d9514bf6b3e3b07edb19ba13"
   dependencies:
-    "@sushi-web3-react/abstract-connector" "^1.0.1"
-    "@sushi-web3-react/types" "^1.0.1"
+    "@emtia-web3-react/abstract-connector" "^1.0.1"
+    "@emtia-web3-react/types" "^1.0.1"
     tiny-invariant "^1.0.6"
 
-"@sushi-web3-react/portis-connector@latest":
+"@emtia-web3-react/portis-connector@latest":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sushi-web3-react/portis-connector/-/portis-connector-1.0.1.tgz#06ad2aedf5cfa0e27ccf3c296381b8936c1e4b58"
+  resolved "https://registry.yarnpkg.com/@emtia-web3-react/portis-connector/-/portis-connector-1.0.1.tgz#06ad2aedf5cfa0e27ccf3c296381b8936c1e4b58"
   dependencies:
     "@portis/web3" "^2.0.0-beta.54"
-    "@sushi-web3-react/abstract-connector" "^1.0.1"
-    "@sushi-web3-react/types" "^1.0.1"
+    "@emtia-web3-react/abstract-connector" "^1.0.1"
+    "@emtia-web3-react/types" "^1.0.1"
     tiny-invariant "^1.0.6"
 
-"@sushi-web3-react/squarelink-connector@latest":
+"@emtia-web3-react/squarelink-connector@latest":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sushi-web3-react/squarelink-connector/-/squarelink-connector-1.0.1.tgz#72496d60b83c94aaf59331ae3e9e12133f8ea66f"
+  resolved "https://registry.yarnpkg.com/@emtia-web3-react/squarelink-connector/-/squarelink-connector-1.0.1.tgz#72496d60b83c94aaf59331ae3e9e12133f8ea66f"
   dependencies:
-    "@sushi-web3-react/abstract-connector" "^1.0.1"
-    "@sushi-web3-react/types" "^1.0.1"
+    "@emtia-web3-react/abstract-connector" "^1.0.1"
+    "@emtia-web3-react/types" "^1.0.1"
     squarelink "^1.1.4"
     tiny-invariant "^1.0.6"
 
-"@sushi-web3-react/torus-connector@latest":
+"@emtia-web3-react/torus-connector@latest":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sushi-web3-react/torus-connector/-/torus-connector-1.0.1.tgz#9a48b9c1abbfaf63e80c21f618fb33d67dd2de63"
+  resolved "https://registry.yarnpkg.com/@emtia-web3-react/torus-connector/-/torus-connector-1.0.1.tgz#9a48b9c1abbfaf63e80c21f618fb33d67dd2de63"
   dependencies:
-    "@sushi-web3-react/abstract-connector" "^1.0.1"
-    "@sushi-web3-react/types" "^1.0.1"
+    "@emtia-web3-react/abstract-connector" "^1.0.1"
+    "@emtia-web3-react/types" "^1.0.1"
     "@toruslabs/torus-embed" "^1.8.0"
 
-"@sushi-web3-react/trezor-connector@latest":
+"@emtia-web3-react/trezor-connector@latest":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sushi-web3-react/trezor-connector/-/trezor-connector-1.0.1.tgz#1eafadd7d58865c8ae9550fae9af8e5b7995115b"
+  resolved "https://registry.yarnpkg.com/@emtia-web3-react/trezor-connector/-/trezor-connector-1.0.1.tgz#1eafadd7d58865c8ae9550fae9af8e5b7995115b"
   dependencies:
     "@0x/subproviders" "^5.0.4"
-    "@sushi-web3-react/abstract-connector" "^1.0.1"
-    "@sushi-web3-react/types" "^1.0.1"
+    "@emtia-web3-react/abstract-connector" "^1.0.1"
+    "@emtia-web3-react/types" "^1.0.1"
     trezor-connect "^7.0.5"
 
-"@sushi-web3-react/types@^1.0.1":
+"@emtia-web3-react/types@^1.0.1":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sushi-web3-react/types/-/types-1.0.1.tgz#1add17474b49d7e729fcd5f7aa2007606ab15235"
+  resolved "https://registry.yarnpkg.com/@emtia-web3-react/types/-/types-1.0.1.tgz#1add17474b49d7e729fcd5f7aa2007606ab15235"
 
-"@sushi-web3-react/walletconnect-connector@latest":
+"@emtia-web3-react/walletconnect-connector@latest":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sushi-web3-react/walletconnect-connector/-/walletconnect-connector-1.0.1.tgz#bec0fba1f4bafe35733fbe893f3c79fe59e3aa6a"
+  resolved "https://registry.yarnpkg.com/@emtia-web3-react/walletconnect-connector/-/walletconnect-connector-1.0.1.tgz#bec0fba1f4bafe35733fbe893f3c79fe59e3aa6a"
   dependencies:
-    "@sushi-web3-react/abstract-connector" "^1.0.1"
-    "@sushi-web3-react/types" "^1.0.1"
+    "@emtia-web3-react/abstract-connector" "^1.0.1"
+    "@emtia-web3-react/types" "^1.0.1"
     "@walletconnect/web3-provider" "^1.2.0-alpha.0"
     tiny-invariant "^1.0.6"
 
-"@sushi-web3-react/walletlink-connector@latest":
+"@emtia-web3-react/walletlink-connector@latest":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sushi-web3-react/walletlink-connector/-/walletlink-connector-1.0.1.tgz#558ae0e89514135b42da1f00198d4452e4f9bc38"
+  resolved "https://registry.yarnpkg.com/@emtia-web3-react/walletlink-connector/-/walletlink-connector-1.0.1.tgz#558ae0e89514135b42da1f00198d4452e4f9bc38"
   dependencies:
-    "@sushi-web3-react/abstract-connector" "^1.0.1"
-    "@sushi-web3-react/types" "^1.0.1"
+    "@emtia-web3-react/abstract-connector" "^1.0.1"
+    "@emtia-web3-react/types" "^1.0.1"
     walletlink "^2.0.2"
 
 "@szmarczak/http-timer@^1.1.2":

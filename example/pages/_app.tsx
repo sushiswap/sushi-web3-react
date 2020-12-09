@@ -10,7 +10,7 @@ export default class Root extends App {
     return (
       <>
         <Head>
-          <title>sushi-web3-react example</title>
+          <title>emtia-web3-react example</title>
         </Head>
 
         <Component />

@@ -1,5 +1,5 @@
 {
-  "name": "@sushi-web3-react/lattice-connector",
+  "name": "@emtia-web3-react/lattice-connector",
   "publishConfig": {
     "access": "public"
   },
@@ -21,7 +21,7 @@
   "author": "Jiro Ono",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sushiswap/sushi-web3-react.git"
+    "url": "git://github.com/emtiaswap/emtia-web3-react.git"
   },
   "main": "dist/index.js",
   "module": "dist/lattice-connector.esm.js",
@@ -37,8 +37,8 @@
   "dependencies": {
     "@0x/subproviders": "^6.2.0",
     "eth-lattice-keyring": "^0.2.7",
-    "@sushi-web3-react/abstract-connector": "^1.0.1",
-    "@sushi-web3-react/types": "^1.0.1"
+    "@emtia-web3-react/abstract-connector": "^1.0.1",
+    "@emtia-web3-react/types": "^1.0.1"
   },
   "license": "GPL-3.0-or-later"
 }

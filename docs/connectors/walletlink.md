@@ -1,11 +1,11 @@
-# `sushi-web3-react` Documentation - WalletLink
+# `emtia-web3-react` Documentation - WalletLink
 
 - [Install](#install)
 - [Arguments](#arguments)
 - [Example](#example)
 
 ## Install
-`yarn add @sushi-web3-react/walletlink-connector`
+`yarn add @emtia-web3-react/walletlink-connector`
 
 ## Arguments
 ```typescript
@@ -16,7 +16,7 @@ appLogoUrl?: string
 
 ## Example
 ```javascript
-import { WalletLinkConnector } from '@sushi-web3-react/walletlink-connector'
+import { WalletLinkConnector } from '@emtia-web3-react/walletlink-connector'
 
 const walletlink = new WalletLinkConnector({ url: '...', appName: '...' })
 ```

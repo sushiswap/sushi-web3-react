@@ -1,5 +1,5 @@
 {
-  "name": "@sushi-web3-react/types",
+  "name": "@emtia-web3-react/types",
   "publishConfig": {
     "access": "public"
   },
@@ -20,7 +20,7 @@
   "author": "Jiro Ono",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sushiswap/sushi-web3-react"
+    "url": "git://github.com/emtiaswap/emtia-web3-react"
   },
   "main": "dist/index.js",
   "module": "dist/types.esm.js",

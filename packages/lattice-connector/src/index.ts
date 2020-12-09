@@ -1,5 +1,5 @@
-import { ConnectorUpdate } from '@sushi-web3-react/types'
-import { AbstractConnector } from '@sushi-web3-react/abstract-connector'
+import { ConnectorUpdate } from '@emtia-web3-react/types'
+import { AbstractConnector } from '@emtia-web3-react/abstract-connector'
 import Web3ProviderEngine from 'web3-provider-engine'
 import { LatticeSubprovider } from '@0x/subproviders/lib/src/subproviders/lattice'
 import CacheSubprovider from 'web3-provider-engine/subproviders/cache.js'

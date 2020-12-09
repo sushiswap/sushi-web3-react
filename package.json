@@ -1,5 +1,5 @@
 {
-  "name": "sushi-web3-react",
+  "name": "emtia-web3-react",
   "publishConfig": {
     "access": "public"
   },
@@ -30,7 +30,7 @@
   "author": "Jiro Ono",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sushiswap/sushi-web3-react"
+    "url": "git://github.com/emtiaswap/emtia-web3-react"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",

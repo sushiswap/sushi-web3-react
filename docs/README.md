@@ -1,8 +1,8 @@
-# `sushi-web3-react` Documentation
+# `emtia-web3-react` Documentation
 
 - [Overview](#overview)
 - [Install](#install)
-- [sushi-web3-react@core API Reference](#sushi-web3-reactcore-api-reference)
+- [emtia-web3-react@core API Reference](#emtia-web3-reactcore-api-reference)
   - [Web3ReactProvider](#web3reactprovider)
     - [Props](#props)
     - [Example](#example)
@@ -20,7 +20,7 @@
 - [Understanding Error Bubbling](#understanding-error-bubbling)
 
 ## Overview
-At a high level, `sushi-web3-react` is a state machine which ensures that certain key pieces of data (the user's current account, for example) relevant to your dApp are kept up-to-date. To this end, `sushi-web3-react` uses [Context](https://reactjs.org/docs/context.html) to efficiently store this data, and inject it wherever you need it in your application.
+At a high level, `emtia-web3-react` is a state machine which ensures that certain key pieces of data (the user's current account, for example) relevant to your dApp are kept up-to-date. To this end, `emtia-web3-react` uses [Context](https://reactjs.org/docs/context.html) to efficiently store this data, and inject it wherever you need it in your application.
 
 The data conforms to the following interface:
 
@@ -44,19 +44,19 @@ interface Web3ReactContextInterface<T = any> {
 }
 ```
 
-The documentation that follows is for `@sushi-web3-react/core`, the package responsible for managing this context. To understand where the data itself comes from, head over to the [connectors/ folder](./connectors/).
+The documentation that follows is for `@emtia-web3-react/core`, the package responsible for managing this context. To understand where the data itself comes from, head over to the [connectors/ folder](./connectors/).
 
 ## Install
 - Grab a fresh copy of `react@>=16.8`...\
   `yarn add react`
 
-- ...and then install `sushi-web3-react`\
-  `yarn add @sushi-web3-react/core`
+- ...and then install `emtia-web3-react`\
+  `yarn add @emtia-web3-react/core`
 
-## `sushi-web3-react@core` API Reference
+## `emtia-web3-react@core` API Reference
 
 ### Web3ReactProvider
-`sushi-web3-react` relies on the existence of a `Web3ReactProvider` at the root of your application (or more accurately, at the root of the subtree which you'd like to have web3 functionality). It requires a single `getLibrary` prop which is responsible for instantiating a web3 convenience library object from a low-level provider.
+`emtia-web3-react` relies on the existence of a `Web3ReactProvider` at the root of your application (or more accurately, at the root of the subtree which you'd like to have web3 functionality). It requires a single `getLibrary` prop which is responsible for instantiating a web3 convenience library object from a low-level provider.
 
 #### Props
 ```typescript
@@ -65,7 +65,7 @@ getLibrary: (provider?: any, connector?: AbstractConnectorInterface) => any
 
 #### Example
 ```javascript
-import { Web3ReactProvider } from '@sushi-web3-react/core'
+import { Web3ReactProvider } from '@emtia-web3-react/core'
 // import your favorite web3 convenience library here
 
 function getLibrary(provider, connector) {
@@ -91,7 +91,7 @@ key?: string
 
 #### Example
 ```javascript
-import { useWeb3React } from '@sushi-web3-react/core'
+import { useWeb3React } from '@emtia-web3-react/core'
 
 function Component () {
   const web3React = useWeb3React()
@@ -115,7 +115,7 @@ key: string
 
 #### Example
 ```javascript
-import { Web3ReactProvider, createWeb3ReactRoot } from '@sushi-web3-react/core'
+import { Web3ReactProvider, createWeb3ReactRoot } from '@emtia-web3-react/core'
 // import your favorite web3 convenience library here
 
 function getLibrary(provider) {
@@ -145,7 +145,7 @@ key?: string
 
 #### Example
 ```javascript
-import { getWeb3ReactContext } from '@sushi-web3-react/core'
+import { getWeb3ReactContext } from '@emtia-web3-react/core'
 
 const web3ReactContext = getWeb3ReactContext()
 
@@ -157,7 +157,7 @@ This is an error which can be used to inform users that they're connected to an 
 
 #### Example
 ```javascript
-import { UnsupportedChainIdError } from '@sushi-web3-react/core'
+import { UnsupportedChainIdError } from '@emtia-web3-react/core'
 // ...
 
 function Component () {
@@ -170,16 +170,16 @@ function Component () {
 ## Understanding Error Bubbling
 Errors that occur during the initial activation of a connector (i.e. inside activate), are are handled in 1 of 4 ways:
 
-1) In the case where there's been 1 or more other updates to the `sushi-web3-react` context between when activate was called and when it resolved with the data required to complete the activation, errors are silently suppressed (in development mode, a warning will be logged to the console). This should really only happen in cases where activation takes a very long time and the user does something in the intervening time, such as activating another connector, deactivating the current connector, etc.
-2) If `throwErrors` (the third argument to activate) is passed, errors will be thrown and should be handled in a .catch. No updates to the `sushi-web3-react` context will occur.
-3) If `onError` (the second argument to activate) is passed, that function is called with the error. No updates to the `sushi-web3-react` context will occur.
-4) Otherwise, the error will be set in the `sushi-web3-react` context (along with the connector).
+1) In the case where there's been 1 or more other updates to the `emtia-web3-react` context between when activate was called and when it resolved with the data required to complete the activation, errors are silently suppressed (in development mode, a warning will be logged to the console). This should really only happen in cases where activation takes a very long time and the user does something in the intervening time, such as activating another connector, deactivating the current connector, etc.
+2) If `throwErrors` (the third argument to activate) is passed, errors will be thrown and should be handled in a .catch. No updates to the `emtia-web3-react` context will occur.
+3) If `onError` (the second argument to activate) is passed, that function is called with the error. No updates to the `emtia-web3-react` context will occur.
+4) Otherwise, the error will be set in the `emtia-web3-react` context (along with the connector).
 
 Errors that occur while a connector is set are handled in 1 of 2 ways:
 
-1) If an `onError` function was passed, this function is called with the error. No updates to the `sushi-web3-react` context will occur.
-2) Otherwise, the error will be set in the `sushi-web3-react` context.
+1) If an `onError` function was passed, this function is called with the error. No updates to the `emtia-web3-react` context will occur.
+2) Otherwise, the error will be set in the `emtia-web3-react` context.
 
-In all of these scenarios, note that calling setError will update the `sushi-web3-react` context. This can be called any time a connector is set, and it can be useful for e.g. manually triggering your app's handling of the `sushi-web3-react` error property.
+In all of these scenarios, note that calling setError will update the `emtia-web3-react` context. This can be called any time a connector is set, and it can be useful for e.g. manually triggering your app's handling of the `emtia-web3-react` error property.
 
-Note: if an error is ever set in the `sushi-web3-react` context, and a connector triggers an update, the manager will attempt to revalidate all properties as if activate was called again, to recover from the error state.
+Note: if an error is ever set in the `emtia-web3-react` context, and a connector triggers an update, the manager will attempt to revalidate all properties as if activate was called again, to recover from the error state.

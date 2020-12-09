@@ -1,4 +1,4 @@
-# `sushi-web3-react` Documentation - Magic
+# `emtia-web3-react` Documentation - Magic
 
 - [Install](#install)
 - [Arguments](#arguments)
@@ -6,7 +6,7 @@
 
 ## Install
 
-`yarn add @sushi-web3-react/magic-connector`
+`yarn add @emtia-web3-react/magic-connector`
 
 ## Arguments
 
@@ -19,7 +19,7 @@ email: string
 ## Example
 
 ```javascript
-import { MagicConnector } from '@sushi-web3-react/magic-connector'
+import { MagicConnector } from '@emtia-web3-react/magic-connector'
 
 const magic = new MagicConnector({ apiKey: '…', chainId: 4, email: '…' })
 ```
@@ -35,7 +35,7 @@ Happens when the user closes the connection window.
 #### Example
 
 ```javascript
-import { UserRejectedRequestError } from '@sushi-web3-react/magic-connector'
+import { UserRejectedRequestError } from '@emtia-web3-react/magic-connector'
 
 function Component() {
   const { error } = useWeb3React()
@@ -51,7 +51,7 @@ Happens when the Magic link verification fails.
 #### Example
 
 ```javascript
-import { FailedVerificationError } from '@sushi-web3-react/magic-connector'
+import { FailedVerificationError } from '@emtia-web3-react/magic-connector'
 
 function Component() {
   const { error } = useWeb3React()
@@ -67,7 +67,7 @@ Happens when the Magic rate limit has been reached.
 #### Example
 
 ```javascript
-import { MagicLinkRateLimitError } from '@sushi-web3-react/magic-connector'
+import { MagicLinkRateLimitError } from '@emtia-web3-react/magic-connector'
 
 function Component() {
   const { error } = useWeb3React()
@@ -83,7 +83,7 @@ Happens when the Magic link has expired.
 #### Example
 
 ```javascript
-import { MagicLinkExpiredError } from '@sushi-web3-react/magic-connector'
+import { MagicLinkExpiredError } from '@emtia-web3-react/magic-connector'
 
 function Component() {
   const { error } = useWeb3React()

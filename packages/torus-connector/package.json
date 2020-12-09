@@ -1,5 +1,5 @@
 {
-  "name": "@sushi-web3-react/torus-connector",
+  "name": "@emtia-web3-react/torus-connector",
   "publishConfig": {
     "access": "public"
   },
@@ -21,7 +21,7 @@
   "author": "Noah Zinsmeister <noahwz@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sushiswap/sushi-web3-react.git"
+    "url": "git://github.com/emtiaswap/emtia-web3-react.git"
   },
   "main": "dist/index.js",
   "module": "dist/torus-connector.esm.js",
@@ -35,8 +35,8 @@
     "lint": "tsdx lint src"
   },
   "dependencies": {
-    "@sushi-web3-react/abstract-connector": "^1.0.1",
-    "@sushi-web3-react/types": "^1.0.1",
+    "@emtia-web3-react/abstract-connector": "^1.0.1",
+    "@emtia-web3-react/types": "^1.0.1",
     "@toruslabs/torus-embed": "^1.8.0"
   },
   "license": "GPL-3.0-or-later",
