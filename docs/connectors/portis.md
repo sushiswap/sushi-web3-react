@@ -1,11 +1,11 @@
-# `sushi-web3-react` Documentation - Portis
+# `emtia-web3-react` Documentation - Portis
 
 - [Install](#install)
 - [Arguments](#arguments)
 - [Example](#example)
 
 ## Install
-`yarn add @sushi-web3-react/portis-connector`
+`yarn add @emtia-web3-react/portis-connector`
 
 ## Arguments
 ```typescript
@@ -16,7 +16,7 @@ config?: any
 
 ## Example
 ```javascript
-import { PortisConnector } from '@sushi-web3-react/portis-connector'
+import { PortisConnector } from '@emtia-web3-react/portis-connector'
 
 const portis = new PortisConnector({ dAppId: '...', networks: [1, 100] })
 ```

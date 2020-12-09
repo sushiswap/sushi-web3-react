@@ -1,4 +1,4 @@
-# `sushi-web3-react` Documentation - Injected
+# `emtia-web3-react` Documentation - Injected
 
 - [Install](#install)
 - [Arguments](#arguments)
@@ -10,7 +10,7 @@
     - [Example](#example-2)
 
 ## Install
-`yarn add @sushi-web3-react/injected-connector`
+`yarn add @emtia-web3-react/injected-connector`
 
 ## Arguments
 ```typescript
@@ -19,7 +19,7 @@ supportedChainIds?: number[]
 
 ## Example
 ```javascript
-import { InjectedConnector } from '@sushi-web3-react/injected-connector'
+import { InjectedConnector } from '@emtia-web3-react/injected-connector'
 
 const injected = new InjectedConnector({ supportedChainIds: [1, 3, 4, 5, 42] })
 ```
@@ -30,7 +30,7 @@ const injected = new InjectedConnector({ supportedChainIds: [1, 3, 4, 5, 42] })
 
 #### Example
 ```javascript
-import { NoEthereumProviderError } from '@sushi-web3-react/injected-connector'
+import { NoEthereumProviderError } from '@emtia-web3-react/injected-connector'
 
 function Component () {
   const { error } = useWeb3React()
@@ -43,7 +43,7 @@ function Component () {
 
 #### Example
 ```javascript
-import { UserRejectedRequestError } from '@sushi-web3-react/injected-connector'
+import { UserRejectedRequestError } from '@emtia-web3-react/injected-connector'
 
 function Component () {
   const { error } = useWeb3React()

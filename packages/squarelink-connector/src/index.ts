@@ -1,5 +1,5 @@
-import { ConnectorUpdate } from '@sushi-web3-react/types'
-import { AbstractConnector } from '@sushi-web3-react/abstract-connector'
+import { ConnectorUpdate } from '@emtia-web3-react/types'
+import { AbstractConnector } from '@emtia-web3-react/abstract-connector'
 import invariant from 'tiny-invariant'
 
 const chainIdToNetwork: { [network: number]: string } = {

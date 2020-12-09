@@ -1,4 +1,4 @@
-import { AbstractConnector } from '@sushi-web3-react/abstract-connector'
+import { AbstractConnector } from '@emtia-web3-react/abstract-connector'
 
 export interface Web3ReactManagerFunctions {
   activate: (connector: AbstractConnector, onError?: (error: Error) => void, throwErrors?: boolean) => Promise<void>

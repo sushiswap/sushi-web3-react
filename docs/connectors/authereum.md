@@ -1,11 +1,11 @@
-# `sushi-web3-react` Documentation - Authereum
+# `emtia-web3-react` Documentation - Authereum
 
 - [Install](#install)
 - [Connector Arguments](#connector-arguments)
 - [Example](#example)
 
 ## Install
-`yarn add @sushi-web3-react/authereum-connector`
+`yarn add @emtia-web3-react/authereum-connector`
 
 ## Connector Arguments
 ```typescript
@@ -14,7 +14,7 @@ chainId: number
 
 ## Example
 ```javascript
-import { AuthereumConnector } from '@sushi-web3-react/authereum-connector'
+import { AuthereumConnector } from '@emtia-web3-react/authereum-connector'
 
 const authereum = new AuthereumConnector({ chainId: 42 })
 ```

@@ -1,5 +1,5 @@
-import { ConnectorUpdate } from '@sushi-web3-react/types'
-import { AbstractConnector } from '@sushi-web3-react/abstract-connector'
+import { ConnectorUpdate } from '@emtia-web3-react/types'
+import { AbstractConnector } from '@emtia-web3-react/abstract-connector'
 import Web3ProviderEngine from 'web3-provider-engine'
 import { TrezorSubprovider } from '@0x/subproviders/lib/src/subproviders/trezor' // https://github.com/0xProject/0x-monorepo/issues/1400
 import CacheSubprovider from 'web3-provider-engine/subproviders/cache.js'

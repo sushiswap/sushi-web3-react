@@ -1,5 +1,5 @@
 {
-  "name": "@sushi-web3-react/fortmatic-connector",
+  "name": "@emtia-web3-react/fortmatic-connector",
   "publishConfig": {
     "access": "public"
   },
@@ -18,10 +18,10 @@
     "dapp",
     "fortmatic"
   ],
-  "author": "Jiro Ono",
+  "author": "Ömür Gökyar",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sushiswap/sushi-web3-react"
+    "url": "git://github.com/Emtia/emtia-web3-react"
   },
   "main": "dist/index.js",
   "module": "dist/fortmatic-connector.esm.js",
@@ -35,11 +35,10 @@
     "lint": "tsdx lint src"
   },
   "dependencies": {
-    "@sushi-web3-react/abstract-connector": "^1.0.1",
-    "@sushi-web3-react/types": "^1.0.1",
+    "@emtia-web3-react/abstract-connector": "^1.0.1",
+    "@emtia-web3-react/types": "^1.0.1",
     "fortmatic": "^1.0.0",
     "tiny-invariant": "^1.0.6"
   },
-  "license": "GPL-3.0-or-later",
-  "gitHead": "9a4cbe01bcc6d321460b36d7bf848c25743b50d9"
+  "license": "GPL-3.0-or-later"
 }

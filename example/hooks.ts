@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { useWeb3React } from '@sushi-web3-react/core'
+import { useWeb3React } from '@emtia-web3-react/core'
 
 import { injected } from './connectors'
 

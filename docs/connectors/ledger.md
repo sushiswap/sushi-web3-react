@@ -1,11 +1,11 @@
-# `sushi-web3-react` Documentation - Ledger
+# `emtia-web3-react` Documentation - Ledger
 
 - [Install](#install)
 - [Arguments](#arguments)
 - [Example](#example)
 
 ## Install
-`yarn add @sushi-web3-react/ledger-connector`
+`yarn add @emtia-web3-react/ledger-connector`
 
 ## Arguments
 ```typescript
@@ -19,7 +19,7 @@ baseDerivationPath?: string
 
 ## Example
 ```javascript
-import { LedgerConnector } from '@sushi-web3-react/ledger-connector'
+import { LedgerConnector } from '@emtia-web3-react/ledger-connector'
 
 const ledger = new LedgerConnector({ chainId: 1, url: '...' })
 ```
