@@ -24,7 +24,8 @@ import {
   magic,
   portis,
   squarelink,
-  torus
+  torus,
+  coin98
 } from '../connectors'
 import { Spinner } from '../components/Spinner'
 
@@ -42,7 +43,8 @@ enum ConnectorNames {
   Magic = 'Magic',
   Portis = 'Portis',
   Squarelink = 'Squarelink',
-  Torus = 'Torus'
+  Torus = 'Torus',
+  Coin98 = 'Coin98'
 }
 
 const connectorsByName: { [connectorName in ConnectorNames]: any } = {
@@ -59,7 +61,8 @@ const connectorsByName: { [connectorName in ConnectorNames]: any } = {
   [ConnectorNames.Magic]: magic,
   [ConnectorNames.Portis]: portis,
   [ConnectorNames.Squarelink]: squarelink,
-  [ConnectorNames.Torus]: torus
+  [ConnectorNames.Torus]: torus,
+  [ConnectorNames.Coin98]: coin98,
 }
 
 function getErrorMessage(error: Error) {

@@ -12,6 +12,7 @@ import { PortisConnector } from '@sushi-web3-react/portis-connector'
 import { SquarelinkConnector } from '@sushi-web3-react/squarelink-connector'
 import { TorusConnector } from '@sushi-web3-react/torus-connector'
 import { LatticeConnector } from '@sushi-web3-react/lattice-connector'
+import { Coin98Connector } from '../packages/coin98-connector'
 
 const POLLING_INTERVAL = 12000
 const RPC_URLS: { [chainId: number]: string } = {
@@ -20,6 +21,8 @@ const RPC_URLS: { [chainId: number]: string } = {
 }
 
 export const injected = new InjectedConnector({ supportedChainIds: [1, 3, 4, 5, 42] })
+
+export const coin98 = new Coin98Connector({ supportedChainIds: [1, 3, 4, 5, 42] })
 
 export const network = new NetworkConnector({
   urls: { 1: RPC_URLS[1], 4: RPC_URLS[4] },

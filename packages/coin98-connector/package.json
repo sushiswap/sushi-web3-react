@@ -1,0 +1,44 @@
+{
+  "name": "@sushi-web3-react/coin98-connector",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "description": "A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps",
+  "keywords": [
+    "react",
+    "react-hooks",
+    "hooks",
+    "ethereum",
+    "javascript",
+    "typescript",
+    "web3",
+    "context",
+    "frontend",
+    "dapp",
+    "metamask"
+  ],
+  "author": "Jiro Ono",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sushiswap/sushi-web3-react"
+  },
+  "main": "dist/index.js",
+  "module": "dist/injected-connector.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "lint": "tsdx lint src"
+  },
+  "dependencies": {
+    "@sushi-web3-react/abstract-connector": "^1.0.1",
+    "@sushi-web3-react/types": "^1.0.1",
+    "tiny-warning": "^1.0.3"
+  },
+  "license": "GPL-3.0-or-later",
+  "gitHead": "9a4cbe01bcc6d321460b36d7bf848c25743b50d9"
+}
